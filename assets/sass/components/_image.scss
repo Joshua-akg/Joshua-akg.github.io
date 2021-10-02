@@ -11,6 +11,8 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		width: 4rem !important;
+
 
 		img {
 			border-radius: _size(border-radius);
@@ -22,7 +24,7 @@
 			max-width: 40%;
 
 			img {
-				width: 100%;
+				width: 4rem;
 			}
 		}
 
@@ -44,17 +46,17 @@
 			width: 100%;
 
 			img {
-				width: 100%;
+				width: 4rem;
 			}
 		}
 
 		&.main {
 			display: block;
 			margin: 0 0 (_size(element-margin) * 1.5) 0;
-			width: 100%;
+			width: 4rem;
 
 			img {
-				width: 100%;
+				width: 4rem;
 			}
 		}
 	}

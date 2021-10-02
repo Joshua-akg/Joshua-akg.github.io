@@ -1257,6 +1257,19 @@ a.image {
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
 
+.technologies .tech-icon img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out
+}
+
+.technologies .tech-icon img:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
 /* List */
 ol {
   list-style: decimal;
